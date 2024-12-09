@@ -29,16 +29,16 @@ export const signup = async (req, res) => {
         // Save the user to the database
         await createdUser.save();
 
-        // // Generate JWT token for the new user                    // JWTtoken not needed for signup
-        // const token = jwt.sign(
-        //     { id: createdUser._id, email: createdUser.email },
-        //     JWT_SECRET,
-        //     { expiresIn: JWT_EXPIRES_IN }
-        // );
+        // Generate JWT token for the new user                    // JWTtoken not needed for signup
+        const token = jwt.sign(
+            { id: createdUser._id, email: createdUser.email },
+            JWT_SECRET,
+            { expiresIn: JWT_EXPIRES_IN }
+        );
 
         res.status(201).json({
             message: "User created successfully",
-            // token, // Send the JWT token in response    //I think I dont need JWT token for signup
+            token, // Send the JWT token in response    //I think I dont need JWT token for signup
             user: {
                 _id: createdUser._id,
                 username: createdUser.username,
