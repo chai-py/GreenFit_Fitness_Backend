@@ -75,6 +75,9 @@ export const login = async (req, res) => {
             { expiresIn: JWT_EXPIRES_IN }
         );
 
+          // Log the token on the backend
+  console.log('Generated Token:', token);
+
         res.status(200).json({
             message: "Login successful",
             token, // Send the JWT token in response
