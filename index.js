@@ -128,7 +128,7 @@ app.post('/create-checkout-session', async (req, res) => {
     res.status(500).send('Internal Server Error');
   }
 });
-app.get('/verify-checkout-session', async (req, res) => {                             //need to debug this one
+app.get('/success', async (req, res) => {                             //need to debug this one
   const { session_id } = req.query;
 
   try {
