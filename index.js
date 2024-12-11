@@ -136,8 +136,11 @@ app.get('/success', async (req, res) => {                             //need to 
     const session = await stripe.checkout.sessions.retrieve(session_id);
 
     if (session.payment_status === 'paid') {
-      // Payment was successful
-      res.json({ success: true });
+      res.json({
+        success: true,
+        message: "Payment successful!",
+        sessionDetails: session, // Include additional session details
+      });
     } else {
       // Payment not successful
       res.json({ success: false });
