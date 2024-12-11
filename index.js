@@ -69,7 +69,14 @@ import Stripe from 'stripe'; // Import the Stripe library
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://main.dh0jwa1gw9pgt.amplifyapp.com/",
+    credentials: true,
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 
 dotenv.config();
 app.use(express.json());
