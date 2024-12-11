@@ -1,5 +1,6 @@
 import express from 'express';
 import { getTraining } from '../controller/TrainingController.js';
+// import { protectToken } from "../middleware/AuthToken.js";
 
 const router = express.Router();
 

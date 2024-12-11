@@ -118,7 +118,7 @@ app.post('/create-checkout-session', async (req, res) => {
       payment_method_types: ['card'],
       line_items: line_items,
       mode: 'payment',  // Use 'payment' for one-time payments
-      success_url: `${process.env.FRONTEND_URL}/success?session_id={CHECKOUT_SESSION_ID}`,  // Redirect to success page after payment
+      success_url: `${process.env.FRONTEND_URL}success?session_id={CHECKOUT_SESSION_ID}`,  // Redirect to success page after payment
       cancel_url: `${process.env.FRONTEND_URL}/cancel`,  // Redirect to cancel page if the payment is canceled
     });
 
