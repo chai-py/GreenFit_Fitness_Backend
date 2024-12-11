@@ -69,7 +69,11 @@ import Stripe from 'stripe'; // Import the Stripe library
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://greenfit-fitness-backend.onrender.com',
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 dotenv.config();
 app.use(express.json());
