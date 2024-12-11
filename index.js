@@ -70,7 +70,7 @@ import Stripe from 'stripe'; // Import the Stripe library
 const app = express();
 
 app.use(cors({
-  origin: 'https://greenfit-fitness-backend.onrender.com',
+  origin: 'https://main.dh0jwa1gw9pgt.amplifyapp.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
