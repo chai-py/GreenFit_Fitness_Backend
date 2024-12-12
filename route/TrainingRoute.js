@@ -1,6 +1,6 @@
 import express from 'express';
-import { getTraining } from '../controller/TrainingController.js';
-// import { protectToken } from "../middleware/AuthToken.js";
+import { getTraining, createTraining, updateTraining, deleteTraining } from '../controller/TrainingController.js';
+import { protectToken } from "../middleware/AuthToken.js";
 
 const router = express.Router();
 
@@ -8,6 +8,15 @@ const router = express.Router();
 router.get("/", getTraining);
 
 // Route to get a single training course by its ID
-router.get("/:id", getTraining);  // This is your dynamic route for fetching by ID
+router.get("/:id", getTraining);  
+
+// Route to create a new training course
+router.post("/", createTraining);
+
+// Route to update a training course by its ID
+router.put("/:id", updateTraining);
+
+// Route to delete a training course by its ID
+router.delete("/:id", deleteTraining);
 
 export default router;

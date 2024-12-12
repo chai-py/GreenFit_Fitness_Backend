@@ -93,6 +93,7 @@ app.get('/', (req, res) => {
 app.use("/training", TrainingRoute)
 app.use("/user", UserRoute)
 
+
 // Create payment intent route
 app.post('/create-checkout-session', async (req, res) => {
   const { cart } = req.body;  // Cart items from the frontend
