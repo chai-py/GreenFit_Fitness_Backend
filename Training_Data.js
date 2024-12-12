@@ -105,7 +105,8 @@ const inventory = [
     "title": "A high-energy cardio workout to improve endurance.",
     "price": 0,
     "category": "Free",
-    "image": "https://images.pexels.com/photos/3836831/pexels-photo-3836831.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Cardio+Blast.jpeg",
+    // "image": "https://images.pexels.com/photos/3836831/pexels-photo-3836831.jpeg",
     "batchStartTime": "2024-12-18T06:00:00Z",
     "batchEndTime": "2024-12-18T06:20:00Z",
     "weeklyClasses": {
@@ -125,7 +126,8 @@ const inventory = [
     "title": "A strength training session targeting all major muscle groups.",
     "price": 0,
     "category": "Free",
-    "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Full+body+strength.jpeg",
+    // "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg",
     "batchStartTime": "2024-12-20T07:00:00Z",
     "batchEndTime": "2024-12-20T07:30:00Z",
     "weeklyClasses": {
@@ -145,7 +147,8 @@ const inventory = [
     "title": "A workout designed to strengthen and tone your core muscles.",
     "price": 0,
     "category": "Free",
-    "image": "https://images.pexels.com/photos/209969/pexels-photo-209969.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Core+Sculpt.jpeg",
+    // "image": "https://images.pexels.com/photos/209969/pexels-photo-209969.jpeg",
     "batchStartTime": "2024-12-20T08:00:00Z",
     "batchEndTime": "2024-12-20T08:15:00Z",
     "weeklyClasses": {
@@ -165,7 +168,8 @@ const inventory = [
     "title": "A gentle yoga flow to start your morning right.",
     "price": 0,
     "category": "Free",
-    "image": "https://images.pexels.com/photos/5928258/pexels-photo-5928258.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/sunrise+yoga.jpeg",
+    // "image": "https://images.pexels.com/photos/5928258/pexels-photo-5928258.jpeg",
     "batchStartTime": "2024-12-25T06:00:00Z",
     "batchEndTime": "2024-12-25T06:20:00Z",
     "weeklyClasses": {
@@ -185,7 +189,8 @@ const inventory = [
     "title": "A calming yoga session for stress relief and relaxation.",
     "price": 0,
     "category": "Free",
-    "image": "https://images.pexels.com/photos/3822864/pexels-photo-3822864.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/relax+and+restrore.jpeg",
+    // "image": "https://images.pexels.com/photos/3822864/pexels-photo-3822864.jpeg",
     "batchStartTime": "2024-12-23T07:30:00Z",
     "batchEndTime": "2024-12-23T08:00:00Z",
     "weeklyClasses": {
@@ -205,7 +210,8 @@ const inventory = [
     "title": "A yoga practice to enhance flexibility and mobility.",
     "price": 9.99,
     "category": "Paid Yoga",
-    "image": "https://images.pexels.com/photos/3822191/pexels-photo-3822191.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/yoga+for+flexibility.jpeg",
+    // "image": "https://images.pexels.com/photos/3822191/pexels-photo-3822191.jpeg",
     "batchStartTime": "2024-12-20T06:00:00Z",
     "batchEndTime": "2024-12-27T06:30:00Z",
     "weeklyClasses": {
@@ -225,7 +231,8 @@ const inventory = [
     "title": "An advanced High-Intensity Interval Training session to push your limits.",
     "price": 19.99,
     "category": "Paid Training",
-    "image": "https://images.pexels.com/photos/6390240/pexels-photo-6390240.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/HIIT.jpeg",
+    // "image": "https://images.pexels.com/photos/6390240/pexels-photo-6390240.jpeg",
     "batchStartTime": "2024-12-18T07:00:00Z",
     "batchEndTime": "2024-12-25T07:45:00Z",
     "weeklyClasses": {
@@ -245,7 +252,8 @@ const inventory = [
     "title": "A guided strength training session for serious gains.",
     "price": 24.99,
     "category": "Paid Training",
-    "image": "https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Strength+Mastery.jpeg",
+    // "image": "https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg",
     "batchStartTime": "2024-12-20T06:00:00Z",
     "batchEndTime": "2024-12-27T07:00:00Z",
     "weeklyClasses": {
@@ -265,7 +273,8 @@ const inventory = [
     "title": "A dynamic yoga session for strength, balance, and focus.",
     "price": 14.99,
     "category": "Paid Yoga",
-    "image": "https://images.pexels.com/photos/13849090/pexels-photo-13849090.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/power+yoga.jpeg",
+    // "image": "https://images.pexels.com/photos/13849090/pexels-photo-13849090.jpeg",
     "batchStartTime": "2024-12-21T06:00:00Z",
     "batchEndTime": "2024-12-28T06:40:00Z",
     "weeklyClasses": {
@@ -285,7 +294,8 @@ const inventory = [
     "title": "An in-depth yoga workshop to enhance your practice.",
     "price": 39.99,
     "category": "Paid Yoga",
-    "image": "https://images.pexels.com/photos/8436707/pexels-photo-8436707.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Yoga+Masterclass.jpeg",
+    // "image": "https://images.pexels.com/photos/8436707/pexels-photo-8436707.jpeg",
     "batchStartTime": "2024-12-19T08:00:00Z",
     "batchEndTime": "2024-12-26T09:30:00Z",
     "weeklyClasses": {
@@ -305,7 +315,8 @@ const inventory = [
     "title": "An intensive workout designed to target your core muscles while enhancing overall strength",
     "price": 49.99,
     "category": "Paid Training",
-    "image": "https://images.pexels.com/photos/20817818/pexels-photo-20817818.jpeg",
+    "image": "https://greenfit.s3.us-east-1.amazonaws.com/Power+Core.jpeg",
+    // "image": "https://images.pexels.com/photos/20817818/pexels-photo-20817818.jpeg",
     "batchStartTime": "2024-12-25T18:00:00Z",
     "batchEndTime": "2024-12-25T18:20:00Z",
     "weeklyClasses": {
