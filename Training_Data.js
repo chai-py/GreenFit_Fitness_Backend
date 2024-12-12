@@ -114,9 +114,9 @@ const inventory = [
       "classDuration": "30 minutes"
     },
     "benefits": {
-      "endurance": "Improves cardiovascular endurance and stamina.",
+      "balance": "Improves cardiovascular endurance and stamina.",
       "strength": "Increases overall body strength and energy levels.",
-      "fatBurn": "Helps in burning fat and improving metabolism."
+      "focus": "Helps in burning fat and improving metabolism."
     }
   },
   {
@@ -134,15 +134,15 @@ const inventory = [
       "classDuration": "30 minutes"
     },
     "benefits": {
-      "strength": "Focuses on building muscle mass and strength.",
-      "endurance": "Enhances muscular endurance and stamina.",
-      "toning": "Helps in toning and defining the entire body."
+      "focus": "Focuses on building muscle mass and strength.",
+      "balance": "Enhances muscular endurance and stamina.",
+      "strength": "Helps in toning and defining the entire body."
     }
   },
   {
     "id": 3,
     "name": "Core Sculpt",
-    "title": "A workout focused on building core strength.",
+    "title": "A workout designed to strengthen and tone your core muscles.",
     "price": 0,
     "category": "Free",
     "image": "https://images.pexels.com/photos/209969/pexels-photo-209969.jpeg",
@@ -154,8 +154,8 @@ const inventory = [
       "classDuration": "30 minutes"
     },
     "benefits": {
-      "coreStrength": "Strengthens and tones the abdominal muscles.",
-      "posture": "Improves posture and spinal alignment.",
+      "strength": "Strengthens and tones the abdominal muscles.",
+      "focus": "Improves posture and spinal alignment.",
       "balance": "Enhances balance and stability through core exercises."
     }
   },
@@ -174,9 +174,9 @@ const inventory = [
       "classDuration": "30 minutes"
     },
     "benefits": {
-      "flexibility": "Increases flexibility and mobility in the body.",
-      "relaxation": "Helps to reduce stress and enhance relaxation.",
-      "mindfulness": "Promotes mindfulness and a calm mind to start the day."
+      "strength": "Increases flexibility and mobility in the body.",
+      "balance": "Helps to reduce stress and enhance relaxation.",
+      "focus": "Promotes mindfulness and a calm mind to start the day."
     }
   },
   {
@@ -194,9 +194,9 @@ const inventory = [
       "classDuration": "30 minutes"
     },
     "benefits": {
-      "stressRelief": "Effective for reducing stress and anxiety.",
-      "relaxation": "Promotes deep relaxation and mental clarity.",
-      "restoration": "Helps restore energy and balance to the body."
+      "strength": "Effective for reducing stress and anxiety.",
+      "balance": "Promotes deep relaxation and mental clarity.",
+      "focus": "Helps restore energy and balance to the body."
     }
   },
   {
@@ -214,9 +214,9 @@ const inventory = [
       "classDuration": "45 minutes"
     },
     "benefits": {
-      "flexibility": "Helps increase range of motion and flexibility.",
-      "mobility": "Enhances joint mobility and overall body movement.",
-      "posture": "Improves posture by stretching and strengthening the muscles."
+      "strength": "Helps increase range of motion and flexibility.",
+      "balance": "Enhances joint mobility and overall body movement.",
+      "focus": "Improves posture by stretching and strengthening the muscles."
     }
   },
   {
@@ -235,8 +235,8 @@ const inventory = [
     },
     "benefits": {
       "strength": "Boosts muscular strength and endurance.",
-      "fatBurn": "Effective for fat loss and muscle toning.",
-      "cardio": "Improves cardiovascular health and stamina."
+      "balance": "Effective for fat loss and muscle toning.",
+      "focus": "Improves cardiovascular health and stamina."
     }
   },
   {
@@ -255,8 +255,8 @@ const inventory = [
     },
     "benefits": {
       "strength": "Focused on building strength and muscle mass.",
-      "muscleGains": "Increases lean muscle tissue for a toned body.",
-      "endurance": "Improves muscular endurance and overall fitness."
+      "balance": "Increases lean muscle tissue for a toned body.",
+      "focus": "Improves muscular endurance and overall fitness."
     }
   },
   {
@@ -294,9 +294,29 @@ const inventory = [
       "classDuration": "90 minutes"
     },
     "benefits": {
-      "expertGuidance": "Provides in-depth knowledge and techniques from expert instructors.",
-      "mindBodyConnection": "Deepens the mind-body connection and enhances the practice.",
-      "personalGrowth": "Helps in personal yoga growth and mastery of challenging poses."
+      "strength": "Provides in-depth knowledge and techniques from expert instructors.",
+      "balance": "Deepens the mind-body connection and enhances the practice.",
+      "focus": "Helps in personal yoga growth and mastery of challenging poses."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Power Core Circuit",
+    "title": "An intensive workout designed to target your core muscles while enhancing overall strength",
+    "price": 49.99,
+    "category": "Paid Training",
+    "image": "https://images.pexels.com/photos/20817818/pexels-photo-20817818.jpeg",
+    "batchStartTime": "2024-12-25T18:00:00Z",
+    "batchEndTime": "2024-12-25T18:20:00Z",
+    "weeklyClasses": {
+      "frequency": "one time demo class",
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "classDuration": "30 minutes"
+    },
+    "benefits": {
+      "strength": "Improves posture and strengthens the back and core muscles.",
+      "balance": "Enhances body awareness and stability through gentle movements.",
+      "focus": "Encourages mental clarity and prepares the mind for restful sleep."
     }
   }
 ]

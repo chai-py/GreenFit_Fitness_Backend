@@ -11,7 +11,7 @@ router.get("/", getTraining);
 router.get("/:id", getTraining);  
 
 // Route to create a new training course
-router.post("/", createTraining);
+router.post("/", protectToken, createTraining);
 
 // Route to update a training course by its ID
 router.put("/:id", updateTraining);
