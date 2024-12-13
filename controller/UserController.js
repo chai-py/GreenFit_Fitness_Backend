@@ -19,11 +19,14 @@ export const signup = async (req, res) => {
         // Hash the password
         const hashPassword = await bcryptjs.hash(password, 10);
 
+        const role = email === "admin@gmail.com" ? "admin" : "user";
+
         // Create a new user with the hashed password
         const createdUser = new User({
             username,
             email,
             password: hashPassword, // Use hashed password
+            role,
         });
 
         // Save the user to the database
