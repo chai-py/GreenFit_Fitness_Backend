@@ -11,12 +11,12 @@ router.get("/", getTraining);
 router.get("/:id", getTraining);  
 
 // Route to create a new training course
-router.post("/", protectToken, createTraining);
+router.post("/",protectToken, createTraining);
 
 // Route to update a training course by its ID
-router.put("/:id", updateTraining);
+router.put("/:id",protectToken, updateTraining);
 
 // Route to delete a training course by its ID
-router.delete("/:id", deleteTraining);
+router.delete("/:id",protectToken, deleteTraining);
 
 export default router;
