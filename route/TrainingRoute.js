@@ -14,9 +14,9 @@ router.get("/:id", getTraining);
 router.post("/", createTraining);
 
 // Route to update a training course by its ID
-router.put("/:id",protectToken, updateTraining);
+router.put("/:id", updateTraining);
 
 // Route to delete a training course by its ID
-router.delete("/:id",protectToken, deleteTraining);
+router.delete("/:id", deleteTraining);
 
 export default router;
