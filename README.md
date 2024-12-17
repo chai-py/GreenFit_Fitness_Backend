@@ -41,7 +41,7 @@ Add these endpoints to the frontend environment to fetch and display data as nee
 
 - Ensure that MongoDB is running and properly connected to the backend.
 - If any errors occur while running the server, double-check the dependencies and the Mongo URI in your .env file.
-- Deployment using Vercel
+- Deployment using render
 
 ### Attributions:
 
